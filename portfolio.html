@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfólio — Victor</title>
+    <meta name="description" content="Portfólio pessoal de Victor: sobre, formação, projetos e contato.">
+    <link rel="preload" as="image" href="img/IMG_20240806_144448.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body class="page-portfolio">
+    
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="index.html" aria-label="Ir para página inicial">Victor<span>Dev</span></a>
+        <!-- Menu responsivo sem JS (checkbox hack) -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir menu">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Alternar menu">☰</label>
+        <nav class="site-nav">
+          <ul>
+            <li><a href="index.html" class="">Sobre mim</a></li>
+            <li><a href="formacao.html" class="">Formação</a></li>
+            <li><a href="portfolio.html" class="active">Portfólio</a></li>
+            <li><a href="contato.html" class="">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main class="site-main">
+      <div class="container">
+        
+<!-- Seção: Portfólio com exemplos de trabalhos (links podem apontar para repositórios) -->
+<section class="section">
+  <h1>Projetos</h1>
+  <div class="cards three">
+    <article class="card">
+      <h3>Ferramenta de Port Forwarding (Go)</h3>
+      <p>CLI similar ao socat para túneis criptografados, com modos L/R e autenticação.</p>
+      <a class="button small" href="#" target="_blank" rel="noopener">Ver repositório</a>
+    </article>
+    <article class="card">
+      <h3>Laboratório AD para Red Team</h3>
+      <p>Ambiente didático para exploração de ataques em AD, com guias e scripts.</p>
+      <a class="button small" href="#" target="_blank" rel="noopener">Documentação</a>
+    </article>
+    <article class="card">
+      <h3>Exercícios de Linux (Básico → Avançado)</h3>
+      <p>Lista de comandos e desafios práticos voltados para sysadmin e segurança.</p>
+      <a class="button small" href="#" target="_blank" rel="noopener">Ver exemplos</a>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Exemplos da disciplina</h2>
+  <p>Estes exemplos foram refeitos com base nas aulas, servindo como parte do portfólio.</p>
+  <ul class="list">
+    <li><a href="#" target="_blank" rel="noopener">Página HTML5 semântica</a></li>
+    <li><a href="#" target="_blank" rel="noopener">Layout responsivo com CSS Grid</a></li>
+    <li><a href="#" target="_blank" rel="noopener">Formulário estilizado</a></li>
+  </ul>
+</section>
+
+      </div>
+    </main>
+    
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Victor — Portfólio pessoal. Feito com HTML5 + CSS3.</p>
+      </div>
+    </footer>
+    
+  </body>
+</html>
